@@ -1,6 +1,6 @@
 //registro de service worker
 var url=window.location.href;
-var swlocation="/twittor/sw.js";
+var swlocation="/twittorapp/sw.js";
 if(navigator.serviceWorker){
   if(url.includes('localhost')){
   swlocation="/sw.js";
